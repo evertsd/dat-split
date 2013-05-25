@@ -1,30 +1,31 @@
-#login-btn{
+#login-area{
+	float:right;
+	width:200px;
 	margin-left:5px;
-	width:162px;
-	height:30px;
-	margin-left:85%;
-	margin-top:-52px;
+	margin-top:10px;
+	margin-right:5%;
 	margin-bottom:1px;
+}
+
+#login-btn{
+	width:160px;
+	margin-left:40px;
+	height:30px;
 
 }
 
 .login{
-	background:#4BDCA6;
-	color:#444;
+	background:transparent;
 	display:inline-block;
 	font-size:18px;
 }
 
 #hidden-login{
 	width:200px;
-	top: 42px;
-	margin-left:77%;
 	padding: 10px;
 	opacity:0;
 
 	background: #f4f4f4;
-
-	position:absolute;
 
 	border-top-style: none;
 	border-left-style: solid;
@@ -62,8 +63,6 @@
 
 #login-tooltip{
 	width:192px;
-	margin-left:78%;
-	position:absolute;
 	padding:8px;
 
 	background: #f4f4f4;
@@ -73,6 +72,8 @@
 	border-bottom-style: solid;
 	border-width: 1px;
 	border-color: #ddd;
+
+	position:absolute;
 	top:42px;
 }
 

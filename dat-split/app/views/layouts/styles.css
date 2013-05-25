@@ -27,9 +27,9 @@ h3.header
 {
 	padding-top:5px;
 	padding-left: 3%;
-	font-size: 25px;
-	color: #444;
-	text-shadow: 1px 1px #aaa;
+	height:40px;
+	float:left;	
+	margin-top:0px;
 }
 
 h1.login
@@ -117,4 +117,22 @@ input[type=submit].download:active
 {
 	background: white;
 	color: #DC5C4B;
+}
+
+a{
+	text-decoration:none;
+}
+
+a.download-header
+{
+	float:left;
+	margin-left:40px;
+	padding-top:5px;
+}
+
+.header-link{
+	font-size:25px;
+	color: #444;
+	text-shadow: 1px 1px #aaa;
+	display:inline-block;
 }

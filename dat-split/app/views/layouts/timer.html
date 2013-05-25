@@ -10,17 +10,20 @@
 <body>
 	<!-- HEADER -->
 	<div class="header">
-		<h3 class="header">TIM3R</h3>
-		<div id='login-tooltip' class='tooltip'>
-			click, then enter your information to sign up. an email will be sent to you with your login information.
-		</div>
-		<div id='login-btn' class='login' onclick='changeOpacity()' onmouseover='showElement("login-tooltip")' onmouseout='hideElement("login-tooltip")'>
-			LOGIN/SIGNUP
-		</div>
-		<div id='hidden-login'>
-			<input type='text' id='login-email' class='login-input' placeholder='email' onclick='logStuff()'/>
-			<input type='text' id='login-username' class='login-input' placeholder='password' onclick='logStuff()'/>
-			<input type='submit' id='login-submit' class='login-input' value='submit info!' onclick='logStuff()'>	
+		<h3 class="header header-link">TIM3R</h3>
+		<a class="download-header header-link" href="#">DOWNLOAD</a>
+		<div id='login-area'>
+			<div id='login-btn' class='login header-link' onclick='changeOpacity()' onmouseover='showElement("login-tooltip")' onmouseout='hideElement("login-tooltip")'>
+				LOGIN/SIGNUP
+			</div>
+			<div id='login-tooltip' class='tooltip'>
+				click, then enter your information to sign up. an email will be sent to you with your login information.
+			</div>
+			<div id='hidden-login'>
+				<input type='text' id='login-email' class='login-input' placeholder='email' onclick='logStuff()'/>
+				<input type='text' id='login-username' class='login-input' placeholder='password' onclick='logStuff()'/>
+				<input type='submit' id='login-submit' class='login-input' value='submit info!' onclick='logStuff()'>	
+			</div>
 		</div>
 	</div>
 
@@ -32,10 +35,10 @@
 	<input id="login" class="login" type="submit" value="start"-->
 
 	<!-- DOWNLOAD CLIENT -->
-	<div class="download">
+	<!--<div class="download">
 		<h2 class="download">DOWNLOAD TIM3R</h2>
 		<p>start running now</p>
 		<input id="download_client" class="download" type="submit" value="download">
-	</div>
+	</div>-->
 </body>
 </html>
