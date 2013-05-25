@@ -1,0 +1,15 @@
+<link href="login.css" rel="stylesheet" type="text/css">
+<script src="login.js"></script>
+<div id='login-area'>
+	<div id='login-tooltip' class='login tooltip'>
+		click, then enter your information to sign up. an email will be sent to you with your login information.
+	</div>
+	<div id='login-btn' class='login' onclick='changeOpacity()' onmouseover='showElement("login-tooltip")' onmouseout='hideElement("login-tooltip")'>
+		login or sign up!
+	</div>
+	<div id='hidden-login' class='login'>
+		<input type='text' id='login-email' class='login-input login' placeholder='email' onclick='logStuff()'/>
+		<input type='text' id='login-username' class='login-input login' placeholder='password' onclick='logStuff()'/>
+		<input type='submit' id='login-submit' class='login-input login' value='submit info!' onclick='logStuff()'>	
+	</div>
+<div>
