@@ -3,6 +3,7 @@
 	<title>HARO</title>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 	<link rel="stylesheet" type="text/css" href="login.css" />
+	<link rel="stylesheet" type="text/css" href="feature.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 	<script src="registered.js"></script>
 	<script src="login.js"></script>
@@ -17,7 +18,7 @@
 				LOGIN/SIGNUP
 			</div>
 			<div id='login-tooltip' class='tooltip'>
-				click, then enter your information to sign up. an email will be sent to you with your login information.
+				CLICK, THEN ENTER YOUR INFORMATION TO SIGN UP. AN EMAIL WILL BE SENT TO YOU WITH YOUR LOGIN INFORMATION.
 			</div>
 			<div id='hidden-login'>
 				<input type='text' id='login-email' class='login-input' placeholder='email' onclick='logStuff()'/>
@@ -26,7 +27,19 @@
 			</div>
 		</div>
 	</div>
-
+	<div class="feature" id="timer-info">
+		<h3>MORE RELAVENT DATA</h3>
+		<div id="feature-text">
+			<p>View much more relevant data with <i>dat split</i>, for example:</p>
+			<ul>
+				<li class='feature-purple'>During any part of the run, view the amount of time that can be saved based on your historically best split times</li>
+				<li class='feature-red'>Look at split times for any given split over a given number of runs.</li>
+				<li class='feature-blue'>Find out which split makes you reset most.</li>
+				<li class='feature-green'>Much, much more!</li>
+			</ul>
+		</div>
+		<img />
+	</div>
 	<!-- LOGIN CONTENT 
 	<h1 id="signup" class="login">S1GNUP</h1>
 	<p id="already" onclick="registered()" class="login">ALREADY TIMING?</p>

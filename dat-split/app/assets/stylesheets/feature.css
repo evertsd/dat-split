@@ -1,0 +1,43 @@
+.feature{
+	border-top:2px solid #CB4B3A;
+	border-bottom:2px solid #CB4B3A;
+	width:100%;
+	min-width:800px;
+}
+
+.feature h3{
+	width:55%;
+	text-align:left;
+	position:relative;
+	left:-55px;
+}
+
+.feature ul{
+	margin-top:0px;
+}
+
+.feature p{
+	margin-bottom:5px;
+}
+
+#feature-text{	
+	margin-left:70px;
+	width:55%;
+	max-width:550px;
+}
+
+.feature-purple{
+	color:#646;
+}
+
+.feature-red{
+	color:#644;
+}
+
+.feature-blue{
+	color:#446;
+}
+
+.feature-green{
+	color:#464;
+}
