@@ -36,10 +36,9 @@ h3.header
 h1.login
 {
 	color: #444;
-	margin-left: 10%;
-	margin-top: 5%;
-	margin-bottom: 0px;
-	width: 50px;
+	margin-top: 140px;
+	margin-left: -20px;
+	margin-bottom: 25px;
 	text-shadow: 10px 10px #ddd;
 	font-size: 120px;
 }
@@ -85,6 +84,13 @@ input
 
 }
 
+h2.login
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 60px;
+}
+
 input.login
 {
 	margin-left: 11%;
@@ -98,7 +104,14 @@ input[type=submit]
 	color: white;
 	margin-bottom: 3%;
 
+	cursor: pointer;
+
 	font-family: 'Lato', sans-serif;
+}
+
+input[type=submit]:hover
+{
+	opacity: .9;
 }
 
 input[type=submit]:active
@@ -128,7 +141,8 @@ a.download-header
 {
 	float:left;
 	margin-left:40px;
-	padding-top:5px;
+	padding-top:9px;
+	font-size: 18px;
 }
 
 .header-link{
