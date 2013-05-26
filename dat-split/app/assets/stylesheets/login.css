@@ -2,7 +2,7 @@
 	float:right;
 	width:200px;
 	margin-left:5px;
-	margin-top:9px;
+	margin-top:7px;
 	margin-right:5%;
 	margin-bottom:1px;
 }
@@ -17,6 +17,7 @@
 .login{
 	background:transparent;
 	display:inline-block;
+	text-shadow: 1px 1px #aaa;
 	font-size:18px;
 }
 
