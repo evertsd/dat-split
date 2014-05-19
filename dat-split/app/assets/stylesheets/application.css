@@ -83,3 +83,23 @@ a.download-header
 	text-shadow: 1px 1px #aaa;
 	display:inline-block;
 }
+.split 
+{ 
+	background: #FFC; 
+	display:inline-block;
+}
+.split.split-title,
+.split.split-footer
+{ 
+	background: #333;
+	color: #EEE;
+}
+.split div { display: inline-block }
+.no-style,
+.no-style li {
+	list-style: none;
+}
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.green { color: #CFC }
+.red { color: #FCC }

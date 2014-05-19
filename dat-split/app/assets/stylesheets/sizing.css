@@ -1,0 +1,76 @@
+@media (min-width: 1201px)
+{
+	.span1 { width: 60px }
+	.span2 { width: 120px }
+	.span3 { width: 180px }
+	.span4 { width: 240px }
+	.span5 { width: 300px }
+	.span6 { width: 360px }
+	.span7 { width: 420px }
+	.span8 { width: 480px }
+	.split .text 
+	{ 
+		vertical-align: top;
+		margin-top: 16px;
+	}
+	.split .text-large 
+	{ 
+		margin-top: 8px;
+		letter-spacing: 3px;
+	}
+	.text { font-size: 24px }
+	.text-large { font-size: 32px }
+}
+
+@media (max-width: 1200px)
+{
+	.span1 { width: 40px }
+	.span2 { width: 90px }
+	.span3 { width: 140px }
+	.span4 { width: 200px }
+}
+
+.pan,
+.pln { padding-left: 0px }
+.pan,
+.prn { padding-right: 0px }
+.pan,
+.ptn { padding-top: 0px }
+.pan,
+.pbn { padding-bottom: 0px }
+
+.man,
+.mln { margin-left: 0px }
+.man,
+.mrn { margin-right: 0px }
+.man,
+.mtn { margin-top: 0px }
+.man,
+.mbn { margin-bottom: 0px }
+
+.mas,
+.mls { margin-left: 4px }
+.mas,
+.mrs { margin-right: 4px }
+.mas,
+.mts { margin-top: 4px }
+.mas,
+.mbs { margin-bottom: 4px }
+
+.mam,
+.mlm { margin-left: 8px }
+.mam,
+.mrm { margin-right: 8px }
+.mam,
+.mtm { margin-top: 8px }
+.mam,
+.mbm { margin-bottom: 8px }
+
+.mal,
+.mll { margin-left: 16px }
+.mal,
+.mrl { margin-right: 16px }
+.mal,
+.mtl { margin-top: 16px }
+.mal,
+.mbl { margin-bottom: 16px }

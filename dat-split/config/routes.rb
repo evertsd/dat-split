@@ -1,6 +1,9 @@
 DatSplit::Application.routes.draw do
-  get "home/index"
-
+  resources :home do
+    collection do
+      get 'timer'
+    end
+  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
