@@ -13,7 +13,7 @@ window.App = window.App || {};
 
     this.hotkeys = [this.playKey, this.pauseKey, this.resetKey, this.prevKey, this.nextKey];
 
-    this.$wrapper.on('keyup', function(e) {
+    $('body').on('keyup', function(e) {
       for(var index in this.hokeys) {
         if(e.keyCode === this.hotkeys[index].keyCode) {
           this.hotkeys[index].fn();
