@@ -151,3 +151,11 @@ a.download-header
 	text-shadow: 1px 1px #aaa;
 	display:inline-block;
 }
+
+.clearfix {
+	clear: both;
+}
+
+.text-center {
+	text-align: center;
+}
