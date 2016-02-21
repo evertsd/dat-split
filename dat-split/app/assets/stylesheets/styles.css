@@ -1,161 +1,161 @@
 body 
 { 
-	background: #eee; 
-	font-family: 'Lato', sans-serif;
-	margin: 0 auto;
+  background: #eee; 
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
 }
 
 hr
 {
-	width: 90%;
-	height: 1px;
-	color: #ddd;
-	background-color: #ddd;
-	border: 0;
+  width: 90%;
+  height: 1px;
+  color: #ddd;
+  background-color: #ddd;
+  border: 0;
 
 }
 
 div.header
 {
-	height: 40px;
-	width: 100%;
-	background: #4BDCA6;
-	box-shadow: 1px 1px #ddd;
-	min-width:800px;
+  height: 40px;
+  width: 100%;
+  background: #4BDCA6;
+  box-shadow: 1px 1px #ddd;
+  min-width:800px;
 }
 
 h3.header
 {
-	padding-top:4px;
-	padding-left: 3%;
-	height:40px;
-	float:left;	
-	margin-top:0px;
+  padding-top:4px;
+  padding-left: 3%;
+  height:40px;
+  float:left; 
+  margin-top:0px;
 }
 
 h1.login
 {
-	color: #444;
-	margin-top: 140px;
-	margin-left: -20px;
-	margin-bottom: 25px;
-	text-shadow: 10px 10px #ddd;
-	font-size: 120px;
+  color: #444;
+  margin-top: 140px;
+  margin-left: -20px;
+  margin-bottom: 25px;
+  text-shadow: 10px 10px #ddd;
+  font-size: 120px;
 }
 
 div.download
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #ddd;
-	border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  border-radius: 5px;
 
-	background: #f4f4f4;
+  background: #f4f4f4;
 
-	width: 30%;
-	margin-left: 65%;
-	margin-top: 20%;
-	padding-left: 1%;
+  width: 30%;
+  margin-left: 65%;
+  margin-top: 20%;
+  padding-left: 1%;
 
 
 }
 
 p.login
 {
-	margin-top: 0px;
-	margin-left:11%;
-	width:auto;
-	color: #aaa;
+  margin-top: 0px;
+  margin-left:11%;
+  width:auto;
+  color: #aaa;
 }
 
 p.login:hover
 {
-	color: #444;
+  color: #444;
 }
 
 input
 {
-	color: #33b5e5;
-	background: white;
-	font-size: 25px;
-	height: 40px;
-	border: 0;
-	box-shadow: 5px 5px #ddd;
+  color: #33b5e5;
+  background: white;
+  font-size: 25px;
+  height: 40px;
+  border: 0;
+  box-shadow: 5px 5px #ddd;
 
 }
 
 h2.login
 {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-left: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 60px;
 }
 
 input.login
 {
-	margin-left: 11%;
-	margin-bottom: 3%;
-	width: 175px;
+  margin-left: 11%;
+  margin-bottom: 3%;
+  width: 175px;
 }
 
 input[type=submit]
 {
-	background: #DC5C4B;
-	color: white;
-	margin-bottom: 3%;
+  background: #DC5C4B;
+  color: white;
+  margin-bottom: 3%;
 
-	cursor: pointer;
+  cursor: pointer;
 
-	font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 input[type=submit]:hover
 {
-	opacity: .9;
+  opacity: .9;
 }
 
 input[type=submit]:active
 {
-	background: white;
-	color: #DC5C4B;
+  background: white;
+  color: #DC5C4B;
 }
 
 input[type=submit].download
 {
-	background: #DC5C4B;
-	margin-left: 5%;
-	width: 90%;
+  background: #DC5C4B;
+  margin-left: 5%;
+  width: 90%;
 }
 
 input[type=submit].download:active
 {
-	background: white;
-	color: #DC5C4B;
+  background: white;
+  color: #DC5C4B;
 }
 
 a{
-	text-decoration:none;
+  text-decoration:none;
 }
 
 a.download-header
 {
-	float:left;
-	margin-left:40px;
-	padding-top:8px;
-	font-size: 18px;
+  float:left;
+  margin-left:40px;
+  padding-top:8px;
+  font-size: 18px;
 }
 
 .header-link{
-	font-size:25px;
-	color: #444;
-	text-shadow: 1px 1px #aaa;
-	display:inline-block;
+  font-size:25px;
+  color: #444;
+  text-shadow: 1px 1px #aaa;
+  display:inline-block;
 }
 
 .clearfix {
-	clear: both;
+  clear: both;
 }
 
 .text-center {
-	text-align: center;
+  text-align: center;
 }
