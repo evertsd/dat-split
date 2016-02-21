@@ -3,8 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 $gray-4: #444;
+$gray-d: #cdcdcd;
+$primary: #4BDCA6;
 
-.btn {
+.btn, .hotkey-input {
+	color: $primary;
 	display: inline-block;
 	padding: 8px;
 	border: 1px solid $gray-4;
@@ -15,12 +18,22 @@ $gray-4: #444;
 	box-sizing: border-box;
 }
 
+.hotkey-input {
+	border-top-width: 0;
+	box-shadow: none;
+	color: $gray-4;
+}
+
 .btn-wrapper-5 {
-	a {
+	.btn, .hotkey-input {
 		width: 20%;
 		float: left;
 		&:last-of-type {
 			float: none;
 		}
 	}
+}
+
+.disabled input {
+	background: $gray-d;
 }
