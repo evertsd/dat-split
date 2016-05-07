@@ -1,6 +1,6 @@
 window.App = window.App || {};
 
-var Timer = function(splits) {
+var OldTimer = function(splits) {
   this.$container = $('[data-timer]');
   this.$previousBest = $('[data-previous-best]')
   this.splits = [];
@@ -11,7 +11,7 @@ var Timer = function(splits) {
 }
 
 
-Timer.prototype.initializeSplits = function(splits) {
+OldTimer.prototype.initializeSplits = function(splits) {
   var split, $split, i, html, timeToSplit = 0;
 
   for(i in splits) {
@@ -31,5 +31,5 @@ var testData = [{ name: 'BOB (1)', previousTime: 126, personalBest: 104 },
                 { name: 'CC (8)', previousTime: 233, personalBest: 215 }];
 
 $(document).on('ready', function() {
-  App.timerRef = new Timer(testData);
+  App.timerRef = new OldTimer(testData);
 });

@@ -13,22 +13,5 @@
     <input type="text" class="hotkey-input text-center" name="hotkeys[play]" data-play-hotkey />
     <input type="text" class="hotkey-input text-center" name="hotkeys[next]" data-next-hotkey />
   </div>
-  <div class="split span8 split-title">
-    <div class="mam">
-      <img class="span1 split-logo" src="#">
-      <div class="span4 text text-left mlm">SM64 16 Star ~ Sig</div>
-      <div class="span2 text text-right" data-previous-best></div>
-    </div>
-  </div>
-  <ul class="no-style span8 pan man" data-timer>
-  </ul>
-  <div class="split span8 split-footer">
-    <div class="mam">
-      <img class="span1 split-logo" src="#">
-      <div class="span6 text text-large text-right mlm timer-text"
-           data-status="off">
-        0:00:00.00
-      </div>
-    </div>
-  </div>
+  <%= react_component('Timer', id: 1) %>
 </div>
