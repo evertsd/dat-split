@@ -1,1 +1,8 @@
 Welcome to dat split
+
+
+## Let's get you up and running
+```
+bundle install
+foreman start -f Procfile.dev
+```
