@@ -1,0 +1,26 @@
+.ui.segment.routes {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.ui.vertical.menu.routes {
+  width: inherit;
+  margin: 0;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ui.vertical.menu.routes>.route-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ui.vertical.menu.routes.empty {
+  height: 80px;
+}
+
+.ui.active.dimmer.inverted.routes {
+  position: initial;
+}
